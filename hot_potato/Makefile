@@ -11,4 +11,4 @@ player: player.cpp
 	g++  -o player $(CPPFLAGS) player.cpp
 
 clean:
-	rm -rf ringmaster player
+	rm -rf ringmaster player *.dSYM
