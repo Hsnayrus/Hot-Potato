@@ -1,4 +1,4 @@
-CPPFLAGS = -Wall -Werror -pedantic -ggdb3
+CPPFLAGS = -Wall -Werror -pedantic -ggdb3 -std=c++11
 
 .PHONY: clean
  
