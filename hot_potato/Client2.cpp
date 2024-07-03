@@ -1,4 +1,4 @@
-#include "Socket.hpp"
+#include "lib/Socket.hpp"
 
 int main() {
     Socket player("127.0.0.1", "4445");

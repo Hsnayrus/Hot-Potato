@@ -10,9 +10,9 @@ in the Resources tab in Sakai.
 
 #include <cassert>
 
-#include "Socket.hpp"
-#include "client.hpp"
-#include "functions.hpp"
+#include "lib/Socket.hpp"
+#include "lib/client.hpp"
+#include "lib/functions.hpp"
 
 int main(int argc, char ** argv) {
     if (argc != 4) {

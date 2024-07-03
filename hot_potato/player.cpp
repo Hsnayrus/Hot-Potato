@@ -1,8 +1,8 @@
 
 
-#include "Socket.hpp"
-#include "functions.hpp"
-#include "synchronize.hpp"
+#include "lib/Socket.hpp"
+#include "lib/functions.hpp"
+#include "lib/synchronize.hpp"
 
 void simpleAccept(Socket &leftPlayer,
                   std::pair<int, std::string> &leftsClient) {
